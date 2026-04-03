@@ -23,7 +23,7 @@ jobs:
 
     - name: Build APK
       run: |
-        # This will auto-accept licenses and build only for 64-bit
+        # This auto-accepts licenses and builds for 64-bit
         yes | buildozer android debug
 
     - name: Upload APK
